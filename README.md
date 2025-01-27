@@ -87,6 +87,22 @@ UUID: To generate unique identifiers for users.
 
 ## Project Structure
 
+## Challenges I faced
+
+During the development of this application, most functionalities were familiar to me, as I had previously implemented CRUD operations in several of my earlier projects. However, implementing pagination posed a challenge. Pagination requires specific backend functionalities, such as managing offsets, limits, and counting users, to enable accurate page navigation.
+
+For this project, I focused on implementing complete client-side pagination. This required crafting custom JavaScript logic to handle data efficiently on the frontend. While it was challenging initially, I was able to overcome it and successfully implement seamless pagination functionality.
+
+## Improvements I Would Make If I Had More Time
+
+If I had additional time, I would extend the project into a full-stack application by developing a dedicated backend instead of relying on a mock API. This would allow for:
+
+# Storing and managing data in a custom database.
+
+# Implementing a more robust system for CRUD operations.
+
+Additionally, I would focus on improving the user experience by incorporating animations using libraries like GSAP. This would make the interface more dynamic and engaging for users.
+
 ## Directories
 
 ```bash
