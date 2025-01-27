@@ -1,6 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This is the Website Link for Demo https://nextajackusassignment.vercel.app/
+---
+
+## **Demo**
+
+Check out the live demo of the project here:  
+[**User Management App**](https://nextajackusassignment.vercel.app/)
+
+---
 
 ## **Getting Started**
 
