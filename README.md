@@ -97,9 +97,9 @@ For this project, I focused on implementing complete client-side pagination. Thi
 
 If I had additional time, I would extend the project into a full-stack application by developing a dedicated backend instead of relying on a mock API. This would allow for:
 
-# Storing and managing data in a custom database.
+### Storing and managing data in a custom database.
 
-# Implementing a more robust system for CRUD operations.
+### Implementing a more robust system for CRUD operations.
 
 Additionally, I would focus on improving the user experience by incorporating animations using libraries like GSAP. This would make the interface more dynamic and engaging for users.
 
