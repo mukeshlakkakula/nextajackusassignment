@@ -2,9 +2,17 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 This is the Website Link for Demo https://nextajackusassignment.vercel.app/
 
-## Getting Started
+## **Getting Started**
 
-Note: To run this application we need to have node in our system
+### Prerequisite
+
+Ensure **Node.js** is installed on your system before running this application.
+
+---
+
+## **Installation and Setup**
+
+Follow these steps to set up and run the application:
 
 ```bash
 Installation and Setup
@@ -74,6 +82,7 @@ UUID: To generate unique identifiers for users.
 
 ## Directories
 
+```bash
 nextajackusassignment/
 ├── components/
 │ ├── UserForm.js
@@ -87,6 +96,7 @@ nextajackusassignment/
 ├── .gitignore
 ├── package.json
 ├── README.md
+```
 
 ## Components
 
