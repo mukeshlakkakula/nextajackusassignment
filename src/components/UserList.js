@@ -21,10 +21,13 @@ const UserList = () => {
   const [error, setError] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [editingUser, setEditingUser] = useState(null);
+  const [loading, setLoading] = useState(true);
   const getUsers = async () => {
+    setLoading(true);
     try {
       const data = await fetchUsers();
       setUsers(data);
+      setLoading(false);
     } catch (error) {
       setError("Error fetching users");
       toast.error("Error fetching users!"); // Displays error in toast
@@ -143,7 +146,17 @@ const UserList = () => {
           Add User
         </button>
       </div>
-      {users.length === 0 && (
+      {loading && (
+        <div className="w-full flex justify-center items-center">
+          <button
+            className="m-auto  bg-red-600 hover:bg-red-700 text-white p-3 rounded-full"
+            onClick={() => openModal()}
+          >
+            Loading....
+          </button>
+        </div>
+      )}
+      {users.length === 0 && loading === false && (
         <div className="w-full flex justify-center items-center">
           <button
             className="m-auto  bg-red-600 hover:bg-red-700 text-white p-3 rounded-lg"
